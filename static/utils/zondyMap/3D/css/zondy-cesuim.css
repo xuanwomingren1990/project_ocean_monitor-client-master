@@ -1,0 +1,158 @@
+/****   zondy cesuim 样式文件   *******/
+
+/*********************************/
+
+/****  @author      Yu HuaWen  ********/
+
+/****  @Date        2018/03/10  ********/
+.map-widgets{
+    /*display: none;*/
+}
+.cesium-widget-credits {
+    display: none !important;
+}
+.toolBar {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 50px;
+    text-align: center;
+}
+
+.map-tools{
+    display: inline-block;
+    width: 565px;
+    height: 40px;
+}
+.map-tools span{
+    background: url(../img/map/menu.png);
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+#canvas {
+    display: none;
+    background: #fff
+}
+
+.cesium-credit-image{
+    display: none !important;
+}
+
+div.infoBoxContainer-blue {
+    /*background-color: #1e90ff;*/
+    /*opacity: 0.6;*/
+    color: white;
+    position: absolute;
+    /*width: 250px;*/
+    /*height: 250px;*/
+    bottom: 0px;
+    display: none;
+}
+
+div.infoBoxContainer-blue div.infoBox {
+    /*height: 200px;*/
+    border: 1px solid #00ffff;
+}
+
+div.infoBoxContainer-blue div.infoBox-title {
+    height: 21px;
+    /*background-color: #1e90ff;*/
+    background-color: #00ffff;
+    /* opacity: 0.9; */
+    /*color: #fff;*/
+    color: #000;
+    font-size: 15px;
+    padding: 5px;
+}
+
+div.infoBoxContainer-blue button.cesium-infoBox-close {
+    display: block;
+}
+
+div.infoBoxContainer-blue div.cesuim-infoBox-content {
+    background-color: #000;
+    opacity: 0.7;
+    color: white;
+    padding: 5px;
+    min-width: 250px;
+    /*width: 250px;*/
+    /*height: 160px;*/
+}
+
+div.infoBoxContainer-blue div.arrow {
+    width: 0;
+    height: 0;
+    border-width: 24px;
+    border-style: solid;
+    border-color: #00ffff transparent transparent transparent;
+}
+
+div.infoBoxContainer-black {
+    /*background-color: #1e90ff;*/
+    /*opacity: 0.6;*/
+    color: white;
+    position: absolute;
+    /*width: 250px;*/
+    /*height: 250px;*/
+    bottom: 0px;
+    display: none;
+}
+
+div.infoBoxContainer-black div.infoBox {
+    /*height: 200px;*/
+    border: 1px solid #dbdcdd;
+    /*border: 1px solid #00ffff;*/
+}
+
+div.infoBoxContainer-black div.infoBox-title {
+    height: 21px;
+    background-color: #0c0d0e;
+    /*background-color: #1e90ff;*/
+    /* opacity: 0.9; */
+    color: #fff;
+    font-size: 15px;
+    padding: 5px;
+}
+
+div.infoBoxContainer-black button.cesium-infoBox-close {
+    display: block;
+}
+
+div.infoBoxContainer-black div.cesuim-infoBox-content {
+    background-color: #0c0d0e;
+    /*background-color: #1e90ff;*/
+    opacity: 0.7;
+    color: white;
+    padding: 5px;
+    min-width: 250px;
+    /*width: 250px;*/
+    /*height: 160px;*/
+}
+
+div.infoBoxContainer-black div.arrow {
+    width: 0;
+    height: 0;
+    border-width: 24px;
+    border-style: solid;
+    border-color: #78797b  transparent transparent transparent;
+    /*border-color: #00ffff transparent transparent transparent;*/
+}
+
+div.infoBoxContainer table {
+    
+}
+
+div.infoBoxContainer table tr{
+    height: 26px;
+}
+
+div.cesuim-doms {
+    position: absolute;
+    bottom: 0px;
+}
+
+button.cesium-infoBox-close {
+    /*right: -1px !important;*/
+    display: none;
+}

@@ -1,0 +1,28 @@
+<div class="map-widgets">
+<!-- <canvas id="canvas" width="200" height="100"></canvas> -->
+    <!-- 用一个空的div标签替代cesuim 底部widgets -->
+<div id="toolBar" class="toolBar">
+    <div class="map-tools">
+        <span onclick="toHome();" class="map-menus" title="主视角">主视角</span>
+        <span onclick="homeToRight();" class="map-menus" title="右视角">右视角</span>
+        <span onclick="toKC();" class="map-menus" title="葵涌视角">葵涌</span>
+        <span onclick="toDP();" class="map-menus" title="大鹏视角">大鹏</span>
+        <span onclick="toNA();" class="map-menus" title="南澳视角">南澳</span>
+        <span onclick="entitiesShow();" class="map-menus" title="显示/隐藏三维标注">标注</span>
+        <span onclick="addPolyline12();" class="map-menus" title="距离量算">测距</span>
+        <span onclick="addPolyline13();" class="map-menus" title="面积量算">测面</span>
+        <span onclick="clearDrawData();" class="map-menus" title="清除">清除</span>
+    </div>
+</div>
+
+ <!-- 自定义InfoBox DOM -->
+<div id="infoBoxContainer" class="infoBoxContainer">
+    <div class="infoBox">
+        <div class="infoBox-title"></div>
+        <button type="button" class="cesium-infoBox-close" onclick="closeInfoBox();" title="关闭">×</button>
+        <div id="cesuim-infoBox-content" class="cesuim-infoBox-content"></div>
+    </div>
+    <div id="arrow" class="arrow">
+    </div>
+</div>
+</div>

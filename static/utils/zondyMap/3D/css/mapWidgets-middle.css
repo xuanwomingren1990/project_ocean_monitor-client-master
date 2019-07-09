@@ -1,0 +1,31 @@
+
+ /*地图操作按钮居中布局*/    
+
+/* 指北针控件自定义样式 */
+.compass {
+    right: 22.5% !important;
+    top: 30px !important;
+}
+/* 地图缩放控件自定义样式 */
+.navigation-controls {
+    right: 24.0% !important; 
+    bottom: 140px !important;
+    top: inherit !important;    
+    background: #303336;
+}
+.navigation-control:hover,.navigation-control-last:hover {
+    color: #fff;
+    fill: #fff;
+    background: #48b;
+    border-color: #aef;
+    box-shadow: 0 0 8px #fff;
+}
+/* 比例尺控件自定义样式 */
+.distance-legend {
+    right: 23.0% !important;    
+}
+/* 全拼控件自定义样式 */
+.cesium-viewer-fullscreenContainer {
+    right: 24.1% !important;
+    bottom: 100px !important;
+}
